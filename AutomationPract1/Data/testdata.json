@@ -1,0 +1,48 @@
+{
+  "books": [
+    {
+      "title": "Selenium Ruby",
+      "coupon": "krishnasakinala"
+    },
+    {
+      "title": "Functional Programming in JS",
+      "coupon": "krishnasakinala"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "aa",
+      "lastName": "dd",
+      "email": "eee@gmail.com",
+      "phone": "1234567890",
+      "address": "aaaa",
+      "city": "www",
+      "postcode": "111132",
+      "password": "Aa@12345asd12"
+    },
+    {
+      "firstName": "bb",
+      "lastName": "ee",
+      "email": "abb@gmail.com",
+      "phone": "9876543210",
+      "address": "bbbb",
+      "city": "xxx",
+      "postcode": "222233",
+      "password": "Bb@12345asd12"
+    },
+    {
+      "firstName": "cc",
+      "lastName": "ff",
+      "email": "cacc@gmail.com",
+      "phone": "9998887777",
+      "address": "cccc",
+      "city": "yyy",
+      "postcode": "333344",
+      "password": "Cc@12345asd12"
+    }
+  ],
+  "wcred": {
+    "username": "invalid@gmail.com",
+    "password": "wrongpass"
+  }
+}
