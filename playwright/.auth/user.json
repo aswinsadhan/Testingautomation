@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "wordpress_sec_4bda60e6860534dc56e13d5dca5f77aa",
+      "value": "eee%7C1759040478%7C1dpY3hXpT4XrYjRP8TJL6pe0Eq6X7u2mqplEDZIpnui%7C699bcbca7778c514afb4423ed8333ed58e5d76927a6655a6c89c1562d9b882f5",
+      "domain": "practice.automationtesting.in",
+      "path": "/wp-content/plugins",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_sec_4bda60e6860534dc56e13d5dca5f77aa",
+      "value": "eee%7C1759040478%7C1dpY3hXpT4XrYjRP8TJL6pe0Eq6X7u2mqplEDZIpnui%7C699bcbca7778c514afb4423ed8333ed58e5d76927a6655a6c89c1562d9b882f5",
+      "domain": "practice.automationtesting.in",
+      "path": "/wp-admin",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_logged_in_4bda60e6860534dc56e13d5dca5f77aa",
+      "value": "eee%7C1759040478%7C1dpY3hXpT4XrYjRP8TJL6pe0Eq6X7u2mqplEDZIpnui%7C9b58271102cf38f61a37b16c976327d3eb243c0c0f0b2082990cc046c6cb40f5",
+      "domain": "practice.automationtesting.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "woocommerce_items_in_cart",
+      "value": "1",
+      "domain": "practice.automationtesting.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "woocommerce_cart_hash",
+      "value": "68caab2bd04382ea60ce8f9a14bab1b3",
+      "domain": "practice.automationtesting.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wp_woocommerce_session_4bda60e6860534dc56e13d5dca5f77aa",
+      "value": "40295%7C%7C1759040478%7C%7C1759036878%7C%7C3dadcf85b07b1b5c6bed94aae8f88106",
+      "domain": "practice.automationtesting.in",
+      "path": "/",
+      "expires": 1759040479.680166,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://practice.automationtesting.in",
+      "localStorage": [
+        {
+          "name": "/wp-admin/admin-ajax.php-wc_cart_hash",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
