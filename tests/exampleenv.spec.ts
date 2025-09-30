@@ -15,15 +15,15 @@ for (const role of roles) {
       await page.goto('/'); 
     });
 
-    test('multiple env test', async ({ page }) => {
+    test('Launching the url', async ({ page }) => {
       await expect(page).toHaveURL('https://practice.automationtesting.in/');
     });
 
-    test('second test', async ({ shop }) => {
+    test('Filter the product by category', async ({ shop }) => {
       await shop.filterbycategory();
     });
 
-    test('third test', async ({ Homepage, shop }) => {
+    test('Checking old price with new price', async ({ Homepage, shop }) => {
       await Homepage.navtomenushop();
       await shop.selectingabook();
 

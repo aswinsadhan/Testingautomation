@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Playwright Test Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f6f8; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    .summary { display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; }
+    .summary div { background: #fff; padding: 15px 20px; border-radius: 8px; font-weight: bold; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .test { padding: 15px; margin: 12px 0; border-radius: 8px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .passed { border-left: 6px solid #34c759; }
+    .failed { border-left: 6px solid #ff3b30; }
+    .skipped { border-left: 6px solid #ffcc00; }
+    .test h3 { margin: 0 0 8px; }
+    .meta { font-size: 0.9em; color: #555; margin-bottom: 8px; }
+    .error-message { color: #ff3b30; font-weight: bold; margin-top: 5px; }
+    .error-stack { background: #2d2d2d; color: #f1f1f1; padding: 10px; border-radius: 6px; margin-top: 8px; font-family: monospace; font-size: 0.85em; white-space: pre-wrap; display: none; }
+    .toggle-btn { cursor: pointer; color: #007bff; text-decoration: underline; font-size: 0.85em; }
+  </style>
+  <script>
+    function toggleStack(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none" ? "block" : "none");
+    }
+  </script>
+</head>
+<body>
+  <h1>📊 Playwright Test Report</h1>
+  <div class="summary">
+    <div>✅ Passed: 9</div>
+    <div>❌ Failed: 0</div>
+    <div>⚠️ Skipped: 0</div>
+    <div>📂 Total: 9</div>
+  </div>
+  
+    <div class="test passed">
+      <h3>Auth setup for Admin</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\setup\admin.auth.ts:8:5 | ⏱ 4535 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Auth setup for User</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\setup\user.auth.ts:7:5 | ⏱ 4563 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Auth setup for Vendor</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\setup\vendor.auth.ts:8:5 | ⏱ 5238 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Launching the url</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:18:9 | ⏱ 7141 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Launching the url</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:18:9 | ⏱ 8353 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Launching the url</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:18:9 | ⏱ 8642 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Filter the product by category</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:22:9 | ⏱ 9008 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Filter the product by category</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:22:9 | ⏱ 10032 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+    <div class="test passed">
+      <h3>Filter the product by category</h3>
+      <div class="meta">📄 C:\playwright\playwrightcd\tests\exampleenv.spec.ts:22:9 | ⏱ 10385 ms | 🔁 Retry: 0</div>
+      <p>Status: <strong>PASSED</strong></p>
+      
+      
+    </div>
+  
+</body>
+</html>

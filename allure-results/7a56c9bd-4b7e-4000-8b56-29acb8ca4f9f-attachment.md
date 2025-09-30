@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - text: 
+    - banner [ref=e4]:
+      - link "Automation Practice Site" [ref=e7] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in
+        - img "Automation Practice Site" [ref=e8] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic:
+            - generic: 
+            - textbox "Search" [ref=e9]
+        - navigation:
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Shop" [ref=e12] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/shop/
+            - listitem [ref=e13]:
+              - link "My Account" [ref=e14] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/my-account/
+            - listitem [ref=e15]:
+              - link "Test Cases" [ref=e16] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/test-cases/
+            - listitem [ref=e17]:
+              - link "AT Site" [ref=e18] [cursor=pointer]:
+                - /url: http://automationtesting.in/
+            - listitem [ref=e19]:
+              - link "Demo Site" [ref=e20] [cursor=pointer]:
+                - /url: http://demo.automationtesting.in/Register.html
+            - listitem [ref=e21]:
+              - link " 1 item -₹450.00" [ref=e22] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/basket/
+                - generic [ref=e23] [cursor=pointer]: 
+                - generic [ref=e24] [cursor=pointer]: 1 item
+                - generic [ref=e25] [cursor=pointer]: "-₹450.00"
+  - generic [ref=e28]:
+    - navigation [ref=e29]:
+      - link "Home" [ref=e30] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in
+      - text: /
+      - link "Android" [ref=e31] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in/product-category/android/
+      - text: / Android Quick Start Guide
+    - generic [ref=e32]:
+      - generic [ref=e33]: Sale!
+      - link "Android Quick Start Guide" [ref=e35] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in/wp-content/uploads/2017/01/Android-Quick-Start-Guide.png
+        - img "Android Quick Start Guide" [ref=e36] [cursor=pointer]
+      - generic [ref=e37]:
+        - heading "Android Quick Start Guide" [level=1] [ref=e38]
+        - paragraph [ref=e40]:
+          - deletion [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: ₹
+              - text: "600.00"
+          - insertion [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: ₹
+              - text: "450.00"
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: Android 4.4 (KitKat®) is the latest version of the world’s favorite operating system for mobile phones and tablets.
+          - paragraph [ref=e52]: This guide introduces the Android 4.4 software available on Nex- us and Google Play edition mobile devices. It doesn’t describe hardware details such as SIM card instructions, battery informa- tion, specs, and so on.
+        - generic [ref=e53]:
+          - spinbutton "Qty" [ref=e55]: "1"
+          - button "Add to basket" [ref=e56] [cursor=pointer]
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - text: "Category:"
+            - link "Android" [ref=e59] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-category/android/
+          - generic [ref=e60]:
+            - text: "Tag:"
+            - link "android" [ref=e61] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-tag/android/
+      - generic [ref=e62]:
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - link "Description" [ref=e65] [cursor=pointer]:
+              - /url: "#tab-description"
+          - listitem [ref=e66]:
+            - link "Reviews (0)" [ref=e67] [cursor=pointer]:
+              - /url: "#tab-reviews"
+        - generic [ref=e68]:
+          - heading "Product Description" [level=2] [ref=e69]
+          - paragraph [ref=e73]: Android 4.4 (KitKat®) is the latest version of the world’s favorite operating system for mobile phones and tablets. This guide introduces the Android 4.4 software available on Nex- us and Google Play edition mobile devices. It doesn’t describe hardware details such as SIM card instructions, battery informa- tion, specs, and so on.
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - heading "Reviews" [level=2] [ref=e77]
+            - paragraph [ref=e78]: There are no reviews yet.
+          - generic [ref=e81]:
+            - heading "Be the first to review “Android Quick Start Guide”" [level=3] [ref=e82]: Be the first to review “Android Quick Start Guide”
+            - generic [ref=e83]:
+              - paragraph [ref=e84]:
+                - generic [ref=e85]: Your Rating
+                - combobox "Your Rating" [ref=e86]:
+                  - option "Rate…" [selected]
+                  - option "Perfect"
+                  - option "Good"
+                  - option "Average"
+                  - option "Not that bad"
+                  - option "Very Poor"
+              - paragraph [ref=e87]:
+                - generic [ref=e88]:
+                  - text: Your Review
+                  - generic [ref=e89]: "*"
+                - textbox "Your Review *" [ref=e90]
+              - paragraph [ref=e91]:
+                - button "Submit" [ref=e92] [cursor=pointer]
+      - generic [ref=e96]:
+        - paragraph [ref=e100]:
+          - insertion [ref=e101]
+        - paragraph [ref=e105]:
+          - insertion [ref=e106]
+        - paragraph [ref=e110]:
+          - insertion [ref=e111]
+        - paragraph [ref=e115]:
+          - insertion [ref=e116]
+  - contentinfo [ref=e118]:
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - link "Site Logo" [ref=e125] [cursor=pointer]:
+          - /url: http://practice.automationtesting.in/
+          - img "Site Logo" [ref=e126] [cursor=pointer]
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "" [ref=e130] [cursor=pointer]:
+              - /url: https://twitter.com/krishnasakinala
+              - generic [ref=e131] [cursor=pointer]: 
+          - listitem [ref=e132]:
+            - link "" [ref=e133] [cursor=pointer]:
+              - /url: https://www.facebook.com/automationtesting2016/
+              - generic [ref=e134] [cursor=pointer]: 
+          - listitem [ref=e135]:
+            - link "" [ref=e136] [cursor=pointer]:
+              - /url: https://plus.google.com/105286300926085335367
+              - generic [ref=e137] [cursor=pointer]: 
+          - listitem [ref=e138]:
+            - link "" [ref=e139] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+              - generic [ref=e140] [cursor=pointer]: 
+          - listitem [ref=e141]:
+            - link "" [ref=e142] [cursor=pointer]:
+              - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+              - generic [ref=e143] [cursor=pointer]: 
+      - insertion [ref=e147]
+      - insertion [ref=e151]
+      - generic [ref=e153]:
+        - heading "Subscribe Here" [level=4] [ref=e154]
+        - generic [ref=e156]:
+          - paragraph [ref=e157]:
+            - textbox "Your email address" [ref=e158]
+          - paragraph [ref=e159]:
+            - button "Subscribe" [ref=e160] [cursor=pointer]
+    - generic [ref=e163]:
+      - text: ©
+      - link "Automation Practice Site" [ref=e164] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in
+      - text: "2025"
+```

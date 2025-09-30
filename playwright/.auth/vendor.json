@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "wordpress_sec_4bda60e6860534dc56e13d5dca5f77aa",
-      "value": "eee%7C1759040479%7CkGy09bOPDpHifWewuGi2xrJNUZgh6kKfrHjRD5fNTXt%7C997b9820733232df54d2587d5b34b3e0f8ed185e8811e326e08ca06bf87408e9",
+      "value": "eee%7C1759318713%7Cu7AhjHJ0dxivIItOMQtPeuXNXLYVuL6fztympGgAoo7%7C2cb0050aa1925ea496ea669a3c803f82e75adb8c55b3fc4521e6625648f157c2",
       "domain": "practice.automationtesting.in",
       "path": "/wp-content/plugins",
       "expires": -1,
@@ -12,7 +12,7 @@
     },
     {
       "name": "wordpress_sec_4bda60e6860534dc56e13d5dca5f77aa",
-      "value": "eee%7C1759040479%7CkGy09bOPDpHifWewuGi2xrJNUZgh6kKfrHjRD5fNTXt%7C997b9820733232df54d2587d5b34b3e0f8ed185e8811e326e08ca06bf87408e9",
+      "value": "eee%7C1759318713%7Cu7AhjHJ0dxivIItOMQtPeuXNXLYVuL6fztympGgAoo7%7C2cb0050aa1925ea496ea669a3c803f82e75adb8c55b3fc4521e6625648f157c2",
       "domain": "practice.automationtesting.in",
       "path": "/wp-admin",
       "expires": -1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "wordpress_logged_in_4bda60e6860534dc56e13d5dca5f77aa",
-      "value": "eee%7C1759040479%7CkGy09bOPDpHifWewuGi2xrJNUZgh6kKfrHjRD5fNTXt%7Cedbc4efb0a2e7fd976600f62a4ccec4d3224d9323967356e8aeff1d78612a68b",
+      "value": "eee%7C1759318713%7Cu7AhjHJ0dxivIItOMQtPeuXNXLYVuL6fztympGgAoo7%7C3e2389408bc06c7c9b5732d4fbc0bc260fd30dcce08fc424018d1368b6ad597f",
       "domain": "practice.automationtesting.in",
       "path": "/",
       "expires": -1,
@@ -52,10 +52,10 @@
     },
     {
       "name": "wp_woocommerce_session_4bda60e6860534dc56e13d5dca5f77aa",
-      "value": "40295%7C%7C1759040480%7C%7C1759036880%7C%7Ceff6ecb4413b8836449ba76c8731b747",
+      "value": "40295%7C%7C1759318713%7C%7C1759315113%7C%7C616f7e9f6ccbd27edbbc88ed43bf1051",
       "domain": "practice.automationtesting.in",
       "path": "/",
-      "expires": 1759040481.462781,
+      "expires": 1759318713.416479,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"

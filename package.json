@@ -2,15 +2,15 @@
   "name": "playwrightcd",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
-    "@types/node": "^24.5.0"
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.0",
+    "allure-playwright": "^3.4.1"
   },
   "dependencies": {
     "dotenv": "^17.2.2"

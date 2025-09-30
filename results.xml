@@ -1,34 +1,94 @@
-<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="39.118157999999994">
-<testsuite name="setup\vendor.auth.ts" timestamp="2025-09-26T06:21:08.875Z" hostname="authSetup - Vendor" tests="1" failures="0" skipped="0" time="10.459" errors="0">
-<testcase name="Auth setup for Vendor" classname="setup\vendor.auth.ts" time="10.459">
+<testsuites id="" name="" tests="12" failures="3" skipped="9" errors="0" time="1.17036">
+<testsuite name="setup\vendor.auth.ts" timestamp="2025-09-29T04:43:50.631Z" hostname="authSetup - Vendor" tests="1" failures="1" skipped="0" time="0.005" errors="0">
+<testcase name="Auth setup for Vendor" classname="setup\vendor.auth.ts" time="0.005">
+<failure message="vendor.auth.ts:8:5 Auth setup for Vendor" type="FAILURE">
+<![CDATA[  [authSetup - Vendor] › setup\vendor.auth.ts:8:5 › Auth setup for Vendor ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\AswinSadanandan\AppData\Local\ms-playwright\chromium-1193\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
 </testcase>
 </testsuite>
-<testsuite name="setup\admin.auth.ts" timestamp="2025-09-26T06:21:08.875Z" hostname="authSetup - Admin" tests="1" failures="0" skipped="0" time="12.575" errors="0">
-<testcase name="Auth setup for Admin" classname="setup\admin.auth.ts" time="12.575">
+<testsuite name="setup\admin.auth.ts" timestamp="2025-09-29T04:43:50.631Z" hostname="authSetup - Admin" tests="1" failures="1" skipped="0" time="0.006" errors="0">
+<testcase name="Auth setup for Admin" classname="setup\admin.auth.ts" time="0.006">
+<failure message="admin.auth.ts:8:5 Auth setup for Admin" type="FAILURE">
+<![CDATA[  [authSetup - Admin] › setup\admin.auth.ts:8:5 › Auth setup for Admin ─────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\AswinSadanandan\AppData\Local\ms-playwright\chromium-1193\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
 </testcase>
 </testsuite>
-<testsuite name="setup\user.auth.ts" timestamp="2025-09-26T06:21:08.875Z" hostname="authSetup - User" tests="1" failures="0" skipped="0" time="8.891" errors="0">
-<testcase name="Auth setup for User" classname="setup\user.auth.ts" time="8.891">
+<testsuite name="setup\user.auth.ts" timestamp="2025-09-29T04:43:50.631Z" hostname="authSetup - User" tests="1" failures="1" skipped="0" time="0.007" errors="0">
+<testcase name="Auth setup for User" classname="setup\user.auth.ts" time="0.007">
+<failure message="user.auth.ts:7:5 Auth setup for User" type="FAILURE">
+<![CDATA[  [authSetup - User] › setup\user.auth.ts:7:5 › Auth setup for User ────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\AswinSadanandan\AppData\Local\ms-playwright\chromium-1193\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
 </testcase>
 </testsuite>
-<testsuite name="exampleenv.spec.ts" timestamp="2025-09-26T06:21:08.875Z" hostname="UI tests" tests="9" failures="0" skipped="0" time="93.846" errors="0">
-<testcase name="User flow › multiple env test" classname="exampleenv.spec.ts" time="10.032">
+<testsuite name="exampleenv.spec.ts" timestamp="2025-09-29T04:43:50.631Z" hostname="UI tests" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="User flow › multiple env test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="User flow › second test" classname="exampleenv.spec.ts" time="13.929">
+<testcase name="User flow › second test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="User flow › third test" classname="exampleenv.spec.ts" time="12.472">
+<testcase name="User flow › third test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Admin flow › multiple env test" classname="exampleenv.spec.ts" time="10.905">
+<testcase name="Admin flow › multiple env test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Admin flow › second test" classname="exampleenv.spec.ts" time="12.448">
+<testcase name="Admin flow › second test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Admin flow › third test" classname="exampleenv.spec.ts" time="15.46">
+<testcase name="Admin flow › third test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Vendor flow › multiple env test" classname="exampleenv.spec.ts" time="5.329">
+<testcase name="Vendor flow › multiple env test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Vendor flow › second test" classname="exampleenv.spec.ts" time="7.096">
+<testcase name="Vendor flow › second test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Vendor flow › third test" classname="exampleenv.spec.ts" time="6.175">
+<testcase name="Vendor flow › third test" classname="exampleenv.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>
